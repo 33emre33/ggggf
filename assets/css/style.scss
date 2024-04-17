@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+}
+.btn-hover-efect{
+    transition: all 0.5s;
+    &:hover{
+        opacity: 0.6;
+    }
+}
+.fs-7{
+    font-size: 0.9rem;
+}
+.scale-2{
+    transform: scale(2);
+}
+.red-template-color{
+    color: #c50202 !important;
+}
+.red-template-color-bg{
+    background-color: #c50202 ;
+}
+.header-nav{
+    a{
+        transition: all 0.5s;
+      
+        &:hover{
+           
+        }
+    }
+}
+.nav-border-on{
+    border-bottom: 1.9px solid red !important;
+}
+.nav-border-off{
+    border-bottom: 1.9px solid rgba(255, 0, 0, 0) !important;
+    &.hover{
+        &:hover{
+            border-bottom: 1.9px solid red !important;
+        }
+    
+    }
+}
+
+
+
+
+.banner-img{
+    z-index:-5;
+    position: relative;
+   
+    &::after{
+        content: "";
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.653);
+        position: absolute;
+        inset: 0;
+       
+
+    }
+}
+
+.services-item-wrapper{
+    &:hover{
+
+        transition: all 0.5s;
+        &:hover{
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+            .services-content-heading{
+                color: rgb(99, 99, 99) !important;
+            }
+        }
+    }
+
+ width: 320px;
+.services-img{
+    width:100%;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 5px;
+}
+}
+
+.red-filter{
+    filter: brightness(0) saturate(100%) invert(8%) sepia(85%) saturate(6849%) hue-rotate(359deg) brightness(114%) contrast(111%);
+
+}
+
+form{
+    input{
+        border: none;
+        border: 1px solid darkgray;
+        border-radius: 20px;
+        &:focus{
+            outline: none;
+        }
+    }
+}
+
+.footer-ico{
+    width: 100px;
+}
+
+.fixed-tel-number{
+    right: 10px;
+    bottom: 3%;
+    @media (max-width:768px) {
+        right: 10px;
+        bottom: 1%;
+        font-size: 0.8rem;
+        
+    }
+   
+    .fixed-tel-ico{
+        transition: all 0.5s;
+        animation: fixed-ico 1s infinite ease;
+        @keyframes fixed-ico {
+            1%{
+                transform: rotate(0deg);
+            }
+            10%{
+                transform: rotate(15deg);
+            }
+            20%{
+                transform: rotate(-15deg);
+            }
+            30%{
+                transform: rotate(15deg);
+            }
+            40%{
+                transform: rotate(0deg);
+            }
+            
+        }
+    }
+}

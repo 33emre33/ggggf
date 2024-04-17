@@ -1,0 +1,78 @@
+  <section>
+        <div class="container">
+            <div class="row py-5 g-4 g-md-0 gap-3 gap-md-0">
+                <div class="col-12 col-md-6 pe-md-5 py-4 d-flex flex-column gap-4">
+                 
+                        <div class="customer-bottom-content-wrapper d-flex gap-2 pt-4">
+                            <div class="row g-md-5  px-3 gap-3 gap-md-0">
+
+                            <div class="col-12 col-md-6 customer-bottom-card-wrapper d-flex flex-column gap-3 px-2 text-center" >
+                                <div class="customer-bottom-card-icon">
+                                    <svg class="red-filter scale-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-fill-check" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.8 11.8 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7 7 0 0 0 1.048-.625 11.8 11.8 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.54 1.54 0 0 0-1.044-1.263 63 63 0 0 0-2.887-.87C9.843.266 8.69 0 8 0m2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793z"/>
+                                      </svg>
+                                </div>
+                                <div class="customer-bottom-heading fw-bolder fs-5 ">
+                                    En Güvenli Servis Ağı
+                          
+                                </div>
+                                <div class="customer-bottom-content fs-7 ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, optio?
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 customer-bottom-card-wrapper d-flex flex-column gap-3 px-2 text-center">
+                                <div class="customer-bottom-card-icon">
+                                   
+                                      <svg  class="red-filter scale-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-plus-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5"/>
+                                      </svg>
+                                </div>
+                                <div class="customer-bottom-heading fw-bolder fs-5 ">
+                                    Müşteri İletişim Merkezi
+
+                                </div>
+                                <div class="customer-bottom-content fs-7">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, optio?
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 customer-bottom-card-wrapper d-flex flex-column gap-3 px-2 text-center">
+                                <div class="customer-bottom-card-icon">
+                                   
+                                    <div class="red-filter fs-3 fw-bolder">100%</div>
+                                </div>
+                                <div class="customer-bottom-heading fw-bolder fs-5 ">
+                                     Müşteri Memnuyeti
+
+                                </div>
+                                <div class="customer-bottom-content fs-7">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, optio?
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 customer-bottom-card-wrapper d-flex flex-column gap-3 px-2 text-center">
+                                <div class="customer-bottom-card-icon d-flex gap-3 justify-content-center">
+                                    
+                                      <svg  class="red-filter scale-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-1-circle" viewBox="0 0 16 16">
+                                        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
+                                      </svg>
+                                </div>
+                                <div class="customer-bottom-heading fw-bolder fs-5 ">
+                                    1 Yıl Ek Garanti
+
+                                </div>
+                                <div class="customer-bottom-content fs-7">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, optio?
+                                </div>
+                            </div>
+                          
+                            
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+               
+
+            </div>
+        </div>
+    </section>
